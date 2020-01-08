@@ -13,18 +13,6 @@
         }
     </style>
     <script>
-        const fs = require('fs');
-        function doFunc ()
-        {
-        fs.writeFile('Hello.txt','Hello World!', whenDone)
-        }
-        
-
-        function whenDone ()
-        {
-            console.log('File created!');
-        }
-        
         var webList = [
             "https://www.google.com",
             "https://microsoft.com",
@@ -522,7 +510,4 @@
     <button onclick="moveTo()">
         Random Website
     </button>
-    <button onclick="doFunc()">
-        Node.jsStuff
-        </button>
 </body>
